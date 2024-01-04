@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+form {
+    background: #fa6677;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0;
+    border: none;
+    background-color: #c3515f;
+    color: #ffffff;
+
+}
+
+
+::placeholder {
+    color: white;
+    padding: 10px;
+
+}
+
+::placeholder:last-child {
+    height: 40px;
+}
+
+.input {
+    padding: 20px
+}
+
+.btn {
+    background-color: white;
+    color: #c3515f;
+    cursor: pointer;
+}
